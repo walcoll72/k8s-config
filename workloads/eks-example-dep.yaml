@@ -26,9 +26,9 @@ spec:
         image: 151564769076.dkr.ecr.ap-northeast-2.amazonaws.com/eks-example:latest
         imagePullPolicy: IfNotPresent
         resources:
-          requests: "64Mi"
-            memory: "200m"
-            cpu:
+          requests: 
+            memory: "64Mi" 
+            cpu: "200m"
           limits:
             memory: "64Mi"
             cpu: "400m"
